@@ -1,0 +1,24 @@
+{
+  "name": "pdf-secret",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint": "^8.46.0",
+    "prettier": "3.0.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "exceljs": "^4.3.0",
+    "pdf-lib": "^1.17.1"
+  }
+}
